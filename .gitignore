@@ -9,11 +9,12 @@
 *.vscode/
 
 # Install & usage
+# PHP Composer
+vendor/
 ## Python
 **/__pycache__
 *.egg-info/
 build/lib/
-vendor/
 ## Linux
 flakLog.out
 nohup.out

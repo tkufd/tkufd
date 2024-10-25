@@ -1,9 +1,13 @@
 <?php
 
 /**
- * Entrypoint for loading resources.
+ * Entry point for loading resources.
  */
 
-define( 'SITE_ENTRYPOINT', 'LOAD' );
+error_reporting( -1 );
+ini_set( 'display_startup_errors', 1 );
+ini_set( 'display_errors', 1 );
 
-# require_once( 'src/WebStart.php' );
+require_once __DIR__ . '/src/EntryPoint.php';
+
+execute( 'load' );

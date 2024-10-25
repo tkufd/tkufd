@@ -1,9 +1,13 @@
 <?php
 
 /**
- * Entrypoint for RESTful API.
+ * Entry point for RESTful API.
  */
 
-define( 'SITE_ENTRYPOINT', 'REST' );
+error_reporting( -1 );
+ini_set( 'display_startup_errors', 1 );
+ini_set( 'display_errors', 1 );
 
-# require_once( 'src/WebStart.php' );
+require_once __DIR__ . '/src/EntryPoint.php';
+
+execute( 'rest' );

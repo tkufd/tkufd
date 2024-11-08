@@ -17,6 +17,9 @@ class MainPage extends Page {
 			'<a href="https://github.com/tkufd/tkufd">GitHub原始碼庫</a>' .
 			'</li>' .
 			'<li>' .
+			'<a href="docs/資料庫概論期中書面報告_06.pdf">期中報告</a>' .
+			'</li>' .
+			'<li>' .
 			'<a href="http://163.13.175.8/php-pwiki/">資料庫概論 - Pwiki</a>' .
 			'</li>' .
 			'<li>' .
